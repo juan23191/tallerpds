@@ -1,0 +1,25 @@
+server:
+  port: 9200
+  servlet:
+    context-path: /maganerProject
+spring:
+  application:
+    name: service-proyects
+  jpa:
+    defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: none
+    generate-ddl: true
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+     
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/proyectosdb?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: root
+
+      
+
