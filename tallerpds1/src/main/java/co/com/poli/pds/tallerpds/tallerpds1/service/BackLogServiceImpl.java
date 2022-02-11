@@ -33,7 +33,6 @@ public class BackLogServiceImpl implements BackLogService {
 				}
 			}
 		}
-		cont = 1;
 		return cont;
 	}
 
